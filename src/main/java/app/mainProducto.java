@@ -34,7 +34,7 @@ public class mainProducto {
 		System.out.println("==============================================");
 		
 		/*Búsqueda de usuario con id=2*/
-		System.out.println("Buscar usuario con id=P0002");
+		System.out.println("Buscar producto con id=P0002");
 		System.out.println("-----------------------");
 		Producto us = em.find(Producto.class,"P0002");
 		System.out.println(us);
